@@ -1,0 +1,33 @@
+{
+  "name": "node-ice",
+  "description": "NodeJS Information Concealment Engine (ICE) algorithm",
+  "version": "1.1.1",
+  "homepage": "https://github.com/SnamikMT/-ICE.git",
+  "author": {},
+  "repository": {},
+  "scripts": {
+    "build": "tsc",
+    "example": "ts-node src/example.ts",
+    "fail": "ts-node src/failDecrypted.ts"
+  },
+  "main": "dist/IceKey.js",
+  "private": false,
+  "engines": {
+    "node": ">=6.9.0 <7.0.0"
+  },
+  "dependencies": {
+    "node-ice": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.9",
+    "ts-node": "^3.1.0",
+    "typescript": "^5.4.3"
+  },
+  "keywords": [
+    "Information Concealment Engine",
+    "ICE",
+    "decrypt",
+    "entsccrypt",
+    "security"
+  ]
+}
